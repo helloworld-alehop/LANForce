@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+}
+
+body{
+    background-color: #333940;
+    background-image: url(./img/Fondo.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.tarjeta{
+    background-color: #ffffac;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 60px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.botones{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.botones button{
+    background-color: #0087b2;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0087b2;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    color:#000000;
+}

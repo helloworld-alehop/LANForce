@@ -1,0 +1,111 @@
+body {
+    background-image: url(../img/Fondo.png);
+    background-color: #333940;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;        
+    align-items: center;           
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+#volver {
+    background-color: #ffffac;
+    color: #0087b2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.boton_registro #registrarse {
+    text-decoration: none;
+    font-size: 30px ;
+    color: #FFFFFF;
+}
+
+
+
+.boton_registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0087b2;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 340px;
+    height: 80px;
+    padding: 5px;
+    
+    
+}
+
+.box {
+    background: #ffffac;  /* card color (form) */
+    width: 320px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;  
+             
+}
+
+
+#bienvenidos {
+    color: #0b78ba; /*bienvieenidos color */ 
+    margin-top: 0;
+    font-size: 24px;
+}
+
+
+label {
+    color: #0b78ba;  /* login color*/
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 0 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0087b2;
+}

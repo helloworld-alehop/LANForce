@@ -1,0 +1,123 @@
+/*  estilo.css */
+
+body {
+    background-color: #333940;
+    background-image: url(../img/Fondo.png);
+    background-size: cover;
+    height: 80vh; 
+    background-blend-mode: darken;
+} 
+
+#cabecera1 {
+    background-color: #333940;
+    height: 120px;
+
+}
+
+#cabeceras {
+    position: sticky;
+    top: 0;
+}
+
+.Home {
+    color: #ffffac;
+    text-align: center;
+    background-color: #0b78ba;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-right: 40px;
+    
+
+}
+
+.menu a {
+    text-decoration: none;
+}
+#Home_a{
+        background-color: #ffffac;
+        color: #0b78ba;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+.menu a {
+    color: #ffffac;
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+
+#frase {
+    width: 420px;
+    text-align: center;
+}
+
+.funcion {
+    
+    display: flex;
+    flex-direction: column-reverse;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    
+}
+
+.funcion p {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    width: 650px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 22px;
+
+}
+
+#foto_descarga {
+    margin-left: 25px;
+}
+
+.Pie {
+    background-color: #ffffac;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-top: 50vh;
+    margin-bottom: 2000px;
+}
+
+.lanforce {
+    color: #333940;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+#listapie {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+
+}
+#listapie li {
+    padding: 5px;
+    
+}
